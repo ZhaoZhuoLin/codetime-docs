@@ -1,0 +1,12 @@
+version: "3"
+services:
+  webserver:
+    image: docker.io.nginx
+    container_name: codetime
+    ports:
+      - "80:80"
+    volumes:
+      - "/home/zzl/codetime:/usr/share/nginx/html"
+      - ./home/zzl/conf.d:/etc/nginx/conf.d
+    environment:    
+      - NGINX_PORT=80 # Nginx监听的端口

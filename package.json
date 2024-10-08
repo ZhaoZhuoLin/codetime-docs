@@ -1,0 +1,21 @@
+{
+  "name": "codetime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.5.0",
+    "markdown-it-custom-attrs": "^1.0.2",
+    "vitepress": "^1.1.0",
+    "vue": "^3.4.21"
+  }
+}
